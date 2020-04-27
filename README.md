@@ -26,7 +26,7 @@ This project is an online movie ticket booking system in which users can book or
 ## Sample code
 * To add a new Theatre into the application: 
   The API example is shown:
-	@PostMapping(value="/addTheatre")
+	'@PostMapping(value="/addTheatre")
 	public ResponseEntity<String> addTheatre( @RequestBody Theatre theatre) throws Exception{
 		try{
 			Integer id=theatreService.addTheatre(theatre);			
@@ -37,7 +37,7 @@ This project is an online movie ticket booking system in which users can book or
 		catch(Exception e){
 			throw new ResponseStatusException(HttpStatus.CONFLICT, environment.getProperty(e.getMessage()), e);
 		}
-	}
+	}'
 *  The Service Implementation will be as follows:
  	public Integer addTheatre(Theatre theatre) throws Exception{
 		Integer theatreId=theatreDAO.addTheatre(theatre);
