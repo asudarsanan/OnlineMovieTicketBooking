@@ -4,7 +4,7 @@ Online Movie Ticket Booking Project
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Sample Code](#sample code)
+* [Sample code](#sample-code)
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
@@ -23,7 +23,7 @@ This project is an online movie ticket booking system in which users can book or
 * Registry: Eureka Server 
 
 
-## Sample Code
+## Sample code
 * To add a new Theatre into the application: 
   The API example is shown:
 	@PostMapping(value="/addTheatre")
